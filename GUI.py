@@ -27,7 +27,7 @@ labelrcpt = Label(root, text="Recipient")
 e_rcpt = Entry(root, bd =5)
 labelmsg = Label(root, text="Message")
 e_msg = Entry(root, bd =5)
-submit = Button(root, text ="Submit", command = sending)
+send = Button(root, text ="Send", command = sending)
 
 # Making design visible
 labelemail.grid(column=0, row=0, sticky=E)
@@ -39,6 +39,6 @@ e_email.grid(column=1, row=0)
 e_pswd.grid(column=1, row=1)
 e_rcpt.grid(column=1, row=2)
 e_msg.grid(column=1, row=3)
-submit.grid(column=2, row=3)
+send.grid(column=2, row=3)
 
 root.mainloop()
