@@ -19,7 +19,8 @@ For non-gmail email addresses, edit the `host` and `port` values according to "E
 - For "port", enter the SMTP port (This is typically 587)
 - For "rcpt", enter the phone number of the person to receive the message followed by the email suffix of their cell phone provider. Find their service provider using https://freecarrierlookup.com/
 - For "msg", enter what you want the recipient to see
-- If you have Gmail, go [here](https://www.google.com/settings/security/lesssecureapps) and turn the setting on
+- If you have Gmail, go [here](https://www.google.com/settings/security/lesssecureapps) and turn the setting on. You MAY also have to go [here](https://accounts.google.com/DisplayUnlockCaptcha) and complete it
+
 
 ## Recipient and message options
 Recipient and message have two ways that they can be input. One way involves editing the .py file and inserting the info. The second way (set as default) involves reading what you type after you run the .py file.
