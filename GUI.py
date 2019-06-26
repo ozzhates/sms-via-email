@@ -20,14 +20,14 @@ def sending():
 
 # Design
 labelemail = Label(root, text="Email")
-e_email = Entry(root, bd =5)
+e_email = Entry(root, bd =1)
 labelpswd = Label(root, text="Password")
-e_pswd = Entry(root, bd =5, show='*')
+e_pswd = Entry(root, bd =1, show='*')
 labelrcpt = Label(root, text="Recipient")
-e_rcpt = Entry(root, bd =5)
+e_rcpt = Entry(root, bd =1)
 labelmsg = Label(root, text="Message")
-e_msg = Entry(root, bd =5)
-send = Button(root, text ="Send", command = sending)
+e_msg = Entry(root, bd =1)
+send = Button(root, text ="Send", command = sending, bd =1)
 
 # Making design visible
 labelemail.grid(column=0, row=0, sticky=E)
@@ -40,5 +40,5 @@ e_pswd.grid(column=1, row=1)
 e_rcpt.grid(column=1, row=2)
 e_msg.grid(column=1, row=3)
 send.grid(column=2, row=3)
-
+root.title("sms-via-email")
 root.mainloop()
